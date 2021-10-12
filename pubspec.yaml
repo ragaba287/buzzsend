@@ -1,0 +1,87 @@
+name: buzzsend
+description: Social media app using Firebase as backend and BLoC as state management.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^2.5.1
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.1.0
+  firebase_core: ^1.6.0
+  flutter_bloc: ^7.1.0
+  flutter_svg: ^0.22.0
+  shared_preferences: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/sign/
+
+  fonts:
+    - family: exo2
+      fonts:
+        - asset: fonts/exo2/Exo2-Black.ttf
+          weight: 900
+        - asset: fonts/exo2/Exo2-BlackItalic.ttf
+          style: italic
+          weight: 900
+
+        - asset: fonts/exo2/Exo2-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/exo2/Exo2-ExtraBoldItalic.ttf
+          style: italic
+          weight: 800
+
+        - asset: fonts/exo2/Exo2-Bold.ttf
+          weight: 700
+        - asset: fonts/exo2/Exo2-BoldItalic.ttf
+          style: italic
+          weight: 700
+
+        - asset: fonts/exo2/Exo2-SemiBold.ttf
+          weight: 600
+        - asset: fonts/exo2/Exo2-SemiBoldItalic.ttf
+          style: italic
+          weight: 600
+
+        - asset: fonts/exo2/Exo2-Medium.ttf
+          weight: 500
+        - asset: fonts/exo2/Exo2-MediumItalic.ttf
+          style: italic
+          weight: 500
+
+        - asset: fonts/exo2/Exo2-Regular.ttf
+          weight: 400
+        - asset: fonts/exo2/Exo2-Italic.ttf
+          style: italic
+          weight: 400
+
+        - asset: fonts/exo2/Exo2-Light.ttf
+          weight: 300
+        - asset: fonts/exo2/Exo2-LightItalic.ttf
+          style: italic
+          weight: 300
+
+        - asset: fonts/exo2/Exo2-ExtraLight.ttf
+          weight: 200
+        - asset: fonts/exo2/Exo2-ExtraLightItalic.ttf
+          style: italic
+          weight: 200
+
+        - asset: fonts/exo2/Exo2-Thin.ttf
+          weight: 100
+        - asset: fonts/exo2/Exo2-ThinItalic.ttf
+          style: italic
+          weight: 100
